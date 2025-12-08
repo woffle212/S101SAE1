@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    background-color: beige;
+}
+
+header{
+    background-color: green;
+    display: flex;
+    color: beige;
+    padding: 20px;
+    border-bottom: 5px;
+    vertical-align: middle;
+}
+
+#logoSite{
+    width: 60px;
+    height: 60px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.lienAcceuil{
+    margin-left: auto;
+    text-decoration: none;
+    color: white;
+}

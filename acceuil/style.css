@@ -7,11 +7,9 @@ body {
 
 header{
     background-color: green;
-    display: flex;
     color: white;
     padding: 20px;
     border-bottom: 5px;
-    vertical-align: middle;
 }
 
 #logoSite{
@@ -22,7 +20,10 @@ header{
 }
 
 .lienAcceuil{
-    margin-left: auto;
     text-decoration: none;
     color: white;
+}
+
+#headerLogo{
+    display: flex;
 }

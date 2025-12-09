@@ -36,10 +36,6 @@ nav{
     display: flex;
 }
 
-#boutonDroite{
-    margin-left: auto;
-}
-
 .topbutton{
     text-align: center;
     width: 150px;
@@ -52,9 +48,27 @@ main{
     align-items: center;
 }
 
-.middlebutton{
-    text-align: center;
-    width: 300px;
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(204,119,34);
-    margin: 60px;
+    margin-top: 10em;
+    padding: 5vw;
+    border-radius: 5px;
+    color: white;
+}
+
+input{
+    width: 75vw;
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+}
+
+#submit{
+    border: none;
+    margin-top: 1em;
 }

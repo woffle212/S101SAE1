@@ -36,29 +36,21 @@ nav{
     display: flex;
 }
 
-#boutonDroite{
-    margin-left: auto;
-}
-
 .topbutton{
     text-align: center;
     width: 150px;
     background-color: rgb(204,119,34);
 }
 
-main{
+li{
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.middlebutton{
-    text-align: center;
-    width: 300px;
-    background-color: rgb(204,119,34);
-    margin: 60px;
+#insidebutton{
+    display: flex;
 }
 
 button{
-    width: 50px;
+    margin-left: auto;
+    width: 150px;
 }

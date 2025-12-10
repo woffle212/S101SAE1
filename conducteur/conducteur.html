@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conduteur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href=""><img id="logoSite" src="../acceuil/logo.png" alt="logo du site"></a>
+        <h1>COVOITURAGE <br> info@castres</h1>
+    </header>
+    <nav>
+        <a class="lien topbutton" id="boutonGauche" href="">
+            <h2 class="lien">Acceuil</h2>
+        </a>
+    </nav>
+    <main>
+        <form action="login">
+            <label for="username">adresse de départ</label>
+            <input type="text" placeholder="départ" name="username">
+            <label for="pwd">adresse d'arrivé</label>
+            <input type="password" placeholder="arrivé" name="pwd"> <br>
+            <p> horaire de départ</p>
+            <input type="time">
+            <p> horaire d'arriver</p>
+            <input type="time"><br>
+            <label>ponctuel<input type="radio" name="choix" value="1"> répétitif<input type="radio" name="choix" value="2"></label>
+
+            <button class="middlebutton"type="submit" id="submit">ajouter le trajet</button>
+        </form>
+    </main>
+<footer>BUT - info - 2025/2026</footer>
+</body>
+</html>
